@@ -1,0 +1,195 @@
+@font-face {
+    font-family: Canopee;
+    src: url(fonts/Canopee.ttf);
+}
+@font-face {
+    font-family: Domaine;
+    src: url(fonts/DomaineDispCondMedium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    background: #222;
+    overflow-x: hidden;
+}
+#page1{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #c5bdb3;
+    position: relative;
+    overflow: hidden;
+}
+#nav{
+    height: 110px;
+    padding: 0 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+}
+#nav img{
+    height: 30px;
+    width: 30%;
+}
+#nav h5{
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+}
+#nav i{
+    width: 30%;
+    text-align: right;
+}
+#elements{
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+#elem1,#elem3{
+    width: 30%;
+    height: 100%;
+}
+#elements h4{
+    margin-block: 10px;
+    font-size: 24px;
+    font-family: Canopee;
+}
+#elements h4 span{
+    background: #b43b12;
+    color: #c4bcb3;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#elements p {
+    font-size: 22px;
+    font-family: Domaine;
+    font-weight: 100;
+    color: #656565;
+}
+#elem2{
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid #a5a5a5;
+    border-left: 2px solid #a5a5a5;
+    padding: 20px 60px;
+    text-align: center;
+
+}
+#elem2 h2{
+    font-family: Canopee;
+    font-size: 70px;
+    letter-spacing: .3px;
+    font-weight: 100;
+}
+#elem2 h3{
+    font-family: Domaine;
+    font-size: 40px;
+    font-weight: 100;
+    color: #2f2f2f;
+    margin-top: 15px;
+}
+#elem2 h6{
+    font-family: Domaine;
+    font-size: 20px;
+    font-weight: 100;
+    color: #2f2f2f;
+    margin-block: 30px;
+}
+#image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease .5s;
+}
+#image-div:hover img{
+    scale: 1.1;
+}
+
+#page1 h1{   
+    text-align: left;
+    padding: 4.5vw 1vw 1vw;
+    font-size: 34vw;
+    font-family: Canopee;
+    font-weight: 400;
+    background: #1c1c19;
+    color: #c4bcb3;
+    line-height: 24vw;
+    width: 96%;
+    margin-left: 2%;
+
+}
+
+
+
+#page2{
+    height: 200vh;
+    width: 100%;
+    background-color: #c4bcb3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 40px;
+}
+#page2-left{
+    height: 100%;
+    width: 35%;
+    padding-right: 50px;
+    border-right: 1px solid #4b4b4b;
+}
+#page2-left h2{
+    line-height: 150px;
+    font-size: 110px;
+    font-family: Canopee;
+    font-weight: 100;
+}
+#page2-left h2 span{
+    font-size: 200px;
+    font-weight: 900;
+}
+#page2-left img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2-left p{
+    font-size: 30px;
+    font-family: Domaine;
+    color: #2f2f2f;
+    margin-top: 20px;
+}
+#page2-right{
+    height: 100%;
+    width: 70%;
+    padding: 0 60px;
+}
+#page2-right img{
+    height: 53%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2-right h1{
+    font-family: Domaine;
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 85px;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
